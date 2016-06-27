@@ -1,0 +1,211 @@
+
+body{
+	/* Fixed navbar not blocking content */
+	padding-top: 55px;
+	/***********************************/
+	/* background-color: #4a6da7; */
+	background-color: silver;
+	margin: 0 auto;
+	color: #FFF;
+}
+
+body{
+       /*  background-image: url("http://s59.radikal.ru/i164/0908/2e/dd7588feb42e.jpg");*/
+        background-image: url("../bg_5.jpg");
+		background-position: center left;
+		background-attachment: fixed;
+        background-repeat: no-repeat !important;
+
+
+}
+
+label{
+    display: block;
+}
+
+
+.label-close{
+	font-size: 13px !important;
+	font-family: "Tahoma",cursive;
+	text-transform:uppercase;
+}
+.result-text{
+	font-family: "Arial Black";
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.btn-nice{
+	color: #FFF !important; 
+    font-size: 23px !important;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+a:hover, a:visited{
+	text-decoration: none !important;
+}
+.progress{
+	width: inherit;
+	margin-top: 20px;
+	height: 10px;
+ }
+small{
+	color: #FFF !important;
+}
+.d-status{
+	
+}
+.navbar{
+}
+/* This is an hack to keep navbar brand at the center */
+.navbar-header {
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {
+	float: none;
+	left: 0 !important;
+	letter-spacing: 0.07em !important;
+
+}
+
+	/***********************************/
+.navbar-brand{
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Charcoal, sans-serif;
+	
+}
+
+.top{
+	font-weight: bold;
+	font-size: 22px;
+	text-transform:uppercase;
+	margin-top: 0px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+hr{
+margin-top: 0px;
+}
+
+.navbar{
+		border: 0;
+}
+
+.navbar-header{
+	display: inline-block !important;
+	padding-top:  20px !important; 
+}
+
+.navbar-header a {
+	color: #FFF !important;
+	
+}
+
+.white{
+	font-family:  'monotype' !important;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #DBDBEA;	
+}
+
+.nav-2{
+	color: #FFF;
+	letter-spacing: 0.05em;
+	font-family: Arial;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-top: -10px;
+}
+
+.back{
+	border: 0px solid silver;
+	font-size: 20px;
+}
+
+.white-link, .white-link:visited, .white:hover{
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+
+select , input{
+}
+
+select, input{
+	color: #332C33;
+	font-weight: bold;
+	height: 60px !important;
+}
+
+.form-element{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+label{
+	font-size: 20px;
+	letter-spacing: 0.15em;
+	display: block; 
+
+}
+
+.label-close{
+	margin: 0 auto !important
+}
+
+.result-text{
+	margin-top: 0px !important;
+	
+}
+
+select{
+ 
+}
+
+.biller_option{
+	letter-spacing: 0.07em;
+	width: 98%;
+}
+
+
+.input{
+	padding: 5px;
+	padding-left: 20px;
+	font-size: 28px;
+}
+
+.input-num{
+	height: 60px;
+	width: 85%;
+	letter-spacing: 0.2em;
+}
+
+.button{
+	color: #FFF;
+	font-size: 18px;
+	display: block;
+	cursor: pointer;
+}
+
+footer{
+	bottom: 0 !important;
+}
+
+.verify-btn{
+	font-weight: bold;
+	padding: 15px !important;
+	font-size: 25px;
+	letter-spacing: 0.07em;
+
+}
+/********************************/
+/********************************/
