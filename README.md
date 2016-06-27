@@ -5,7 +5,7 @@ This repository contains my project files for the Nigerian Bank Account Verifier
 
 Install the android app here > https://play.google.com/store/apps/details?id=com.account.verifier.ng 
 
-**Built With : ** 
+**Built With** 
 * jQUERY (DOM and AJAX)
 * Bootstrap (UI) 
 * HTML5 
