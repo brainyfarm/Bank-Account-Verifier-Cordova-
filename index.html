@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Bootstrap Stuff -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+<script src="js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/GALocalStorage.js"></script>
+
+<script type="text/javascript" src="js/crossorigin.js"></script>
+
+<script type="text/javascript" src="cordova.js"></script>
+
+
+<script type="text/javascript" src="js/index.js"></script>
+
+
+<script>
+
+
+
+
+//document.addEventListener("deviceready", setupAds, false);
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+
+
+<!-- 07086362768 -->
+<body>
+<!-- <div class="share"> </div> -->
+
+<div class="main-nav">
+
+<!--  Stuff for header -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header pull-left">
+      
+      <a class="navbar-brand white inset" href="#">ACCOUNT VERIFIER </a>
+	  <!-- <a href="#" class="pull-right extra glyphicon glyphicon-option-vertical" onclick='show_option(); '></a> -->
+    </div>
+  </div>
+</nav>
+
+<!-- End Stuff for header -->
+
+</div>
+
+
+
+
+
+
+
+<div class="container-fluid" id="main">
+
+<h2 class="text-center top title"> Verify Account </h2> 
+<hr class="line"/> 
+
+	<div class="form-element">
+    <label> Banking Institution </label>
+    <select class="input input-lg biller_option" id="BankId" name="BankId">
+        <!-- <option selected="selected" value=""></option> -->
+	
+        <option value="31">Access Bank Nigeria Plc</option>
+        <option value="262">ACCION Microfinance bank</option>
+        <option value="1711">AG Mortgage Bank Plc</option>
+        <option value="154">Aso Savings</option>
+        <option value="72">Diamond Bank Plc</option>
+        <option value="47">Ecobank Nigeria</option>
+        <option value="273">Ekondo MFB</option>
+        <option value="125">Enterprise Bank Plc</option>
+        <option value="51">Fidelity Bank Plc</option>
+        <option value="8">First Bank of Nigeria Plc</option>
+        <option value="76">First City Monument Bank</option>
+        <option value="10">Guaranty Trust Bank Plc</option>
+        <option value="307">Heritage Bank</option>
+        <option value="261">Jaiz  Bank PLC</option>
+        <option value="123">Keystone Bank Ltd</option>
+        <option value="518">Seedvest MFB</option>
+        <option value="120">Skye Bank Plc</option>
+        <option value="17">Stanbic IBTC Plc</option>
+        <option value="121">Sterling Bank Plc</option>
+        <option value="11">Union Bank Nigeria Plc</option>
+        <option value="7">United Bank for Africa Plc</option>
+        <option value="129">Unity Bank Plc</option>
+        <option value="16">WEMA Bank Plc</option>
+        <option value="117">Zenith Bank International</option>
+		
+	
+    </select>
+	
+	</div>
+	
+	<div class="form-element">
+	
+    <label> Account Number </label>
+	
+    <input  maxlength="10" id="account-number" type="tel" class="input input-lg input-num" />
+	
+	</div> 
+	
+	<div class="form-element">
+		
+    <button type="submit" id="verify-btn" class="btn btn-info btn-lg verify-btn"><span class="glyphicon glyphicon-check"> </span> Verify</button>
+	
+	</div> 
+	
+	<!-- <h4 class="text-center loading-msg"> Just a moment... </h4> -->
+	<div style="display:none" class="progress loading-bar">
+	  <div class="progress-bar progress-bar-striped active" role="progressbar"
+	  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+		<em> </em>
+	  </div>
+	</div>
+</div>
+
+
+</body>
+</html>

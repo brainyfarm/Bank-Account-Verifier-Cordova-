@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.account.verifier.ng"
+        versionCode = "11" 
+        version     = "1.0.1">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Account Verifier </name>
+
+    <description>
+        Nigerian Bank account verifier. 
+    </description>
+
+    <author href="http://masterbrainy.com" email="brainyfarm@gmail.com">
+        Olawale Akinseye 
+    </author>
+	<!-- enable assets from remote location -->
+	<access origin="*" />
+	<!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
+    <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
+    <plugin name="cordova-plugin-whitelist" version="1" />
+	
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+	<!-- <gap:plugin name="org.apache.cordova.device" spec="0.3.0" source="pgb" /> -->
+	<gap:plugin name="org.apache.cordova.splashscreen" />
+	<gap:plugin name="phonegap-admob" source="npm"/>
+	
+
+
+	
+	<!-- all: hides the status bar at the top of the screen -->
+	<preference name="fullscreen" value="false" /> 
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="SplashScreenDelay" value="3000" />
+	<preference name="SplashMaintainAspectRatio" value="true|false" />
+	
+	<preference name="AndroidPersistentFileLocation" value="Internal" />
+
+
+
+<splash src="splash_lg.png" />
+
+
+<!-- App Icons  --> 
+<icon src="res/drawable-ldpi/appicon.png" gap:platform="android"    gap:qualifier="ldpi" />
+
+<icon src="res/drawable-mdpi/appicon.png" gap:platform="android"    gap:qualifier="mdpi" />
+
+<icon src="res/drawable-hdpi/appicon.png" gap:platform="android"    gap:qualifier="hdpi"/>
+
+<icon src="res/drawable-xhdpi/appicon.png" gap:platform="android"    gap:qualifier="xhdpi" />
+
+<icon src="res/drawable-xxhdpi/appicon.png" gap:platform="android"    gap:qualifier="xxhdpi" />
+
+<!-- Splash screens -->
+
+<gap:splash src="res/drawable-ldpi/background.9.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="res/drawable-mdpi/background.9.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="res/drawable-hdpi/background.9.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="res/drawable-xhdpi/background.9.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="res/drawable-xxhdpi/background.9.png" gap:platform="android" gap:density="xxhdpi" />
+
+</widget>
