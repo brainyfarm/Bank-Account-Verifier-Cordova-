@@ -1,5 +1,5 @@
-# Bank-Account-Verifier-Cordova-
-## Nigerian Bank Accounts Verifier Files
+# Nigerian Bank Accounts Verifier
+## Project Files
 
 This repository contains my project files for the Nigerian Bank Account Verifier app, a mobile application built with web technology.
 
